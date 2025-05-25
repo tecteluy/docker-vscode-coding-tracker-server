@@ -51,3 +51,7 @@ The server will be available at http://localhost:10345
 ```bash
 docker-compose down
 ```
+
+## Credits
+
+This project uses and is based on the source code from the open-source repository [vscode-coding-tracker-server](https://github.com/hangxingliu/vscode-coding-tracker-server) by Hangxing Liu. Many thanks to the original author for their work.
