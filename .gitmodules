@@ -1,0 +1,3 @@
+[submodule "vscode-coding-tracker-server"]
+	path = vscode-coding-tracker-server
+	url = https://github.com/hangxingliu/vscode-coding-tracker-server.git

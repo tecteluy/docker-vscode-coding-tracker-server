@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  vsct:
+    image: vsct
+    ports:
+      - "10345:10345"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./volumes/database:/opt/vsct/database
+    restart: unless-stopped
